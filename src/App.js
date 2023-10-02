@@ -1,9 +1,10 @@
-import Content from 'component/Content.js';
+import Content from './component/Content.js';
 import './App.css';
 
 function App() {
   return (
     <Content />
+
   );
 }
 

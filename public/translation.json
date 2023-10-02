@@ -1,0 +1,309 @@
+{
+    "aliments": [
+      {
+        "anglais": "Apple",
+        "francais": "Pomme"
+      },
+      {
+        "anglais": "Banana",
+        "francais": "Banane"
+      },
+      {
+        "anglais": "Orange",
+        "francais": "Orange"
+      },
+      {
+        "anglais": "Carrot",
+        "francais": "Carotte"
+      },
+      {
+        "anglais": "Broccoli",
+        "francais": "Brocoli"
+      },
+      {
+        "anglais": "Tomato",
+        "francais": "Tomate"
+      },
+      {
+        "anglais": "Potato",
+        "francais": "Pomme de terre"
+      },
+      {
+        "anglais": "Spinach",
+        "francais": "Épinard"
+      },
+      {
+        "anglais": "Strawberry",
+        "francais": "Fraise"
+      },
+      {
+        "anglais": "Blueberry",
+        "francais": "Myrtille"
+      },
+      {
+        "anglais": "Watermelon",
+        "francais": "Pastèque"
+      },
+      {
+        "anglais": "Pineapple",
+        "francais": "Ananas"
+      },
+      {
+        "anglais": "Grapes",
+        "francais": "Raisin"
+      },
+      {
+        "anglais": "Milk",
+        "francais": "Lait"
+      },
+      {
+        "anglais": "Cheese",
+        "francais": "Fromage"
+      },
+      {
+        "anglais": "Bread",
+        "francais": "Pain"
+      },
+      {
+        "anglais": "Rice",
+        "francais": "Riz"
+      },
+      {
+        "anglais": "Chicken",
+        "francais": "Poulet"
+      },
+      {
+        "anglais": "Beef",
+        "francais": "Boeuf"
+      },
+      {
+        "anglais": "Fish",
+        "francais": "Poisson"
+      },
+      {
+        "anglais": "Eggs",
+        "francais": "Oeufs"
+      },
+      {
+        "anglais": "Butter",
+        "francais": "Beurre"
+      },
+      {
+        "anglais": "Sugar",
+        "francais": "Sucre"
+      },
+      {
+        "anglais": "Salt",
+        "francais": "Sel"
+      },
+      {
+        "anglais": "Pepper",
+        "francais": "Poivre"
+      },
+      {
+        "anglais": "Olive Oil",
+        "francais": "Huile d'olive"
+      },
+      {
+        "anglais": "Yogurt",
+        "francais": "Yaourt"
+      },
+      {
+        "anglais": "Honey",
+        "francais": "Miel"
+      },
+      {
+        "anglais": "Onion",
+        "francais": "Oignon"
+      },
+      {
+        "anglais": "Garlic",
+        "francais": "Ail"
+      },
+      {
+        "anglais": "Lettuce",
+        "francais": "Laitue"
+      },
+      {
+        "anglais": "Cucumber",
+        "francais": "Concombre"
+      },
+      {
+        "anglais": "Bell Pepper",
+        "francais": "Poivron"
+      },
+      {
+        "anglais": "Eggplant",
+        "francais": "Aubergine"
+      },
+      {
+        "anglais": "Pasta",
+        "francais": "Pâtes"
+      },
+      {
+        "anglais": "Cereal",
+        "francais": "Céréales"
+      },
+      {
+        "anglais": "Coffee",
+        "francais": "Café"
+      },
+      {
+        "anglais": "Tea",
+        "francais": "Thé"
+      },
+      {
+        "anglais": "Wine",
+        "francais": "Vin"
+      },
+      {
+        "anglais": "Beer",
+        "francais": "Bière"
+      },
+      {
+        "anglais": "Juice",
+        "francais": "Jus"
+      },
+      {
+        "anglais": "Soda",
+        "francais": "Soda"
+      },
+      {
+        "anglais": "Cake",
+        "francais": "Gâteau"
+      },
+      {
+        "anglais": "Chocolate",
+        "francais": "Chocolat"
+      },
+      {
+        "anglais": "Ice Cream",
+        "francais": "Crème glacée"
+      },
+      {
+        "anglais": "Cookies",
+        "francais": "Biscuits"
+      },
+      {
+        "anglais": "Pancakes",
+        "francais": "Pancakes"
+      },
+      {
+        "anglais": "Hamburger",
+        "francais": "Hamburger"
+      },
+      {
+        "anglais": "Pizza",
+        "francais": "Pizza"
+      },
+      {
+        "anglais": "Sandwich",
+        "francais": "Sandwich"
+      },
+      {
+        "anglais": "Soup",
+        "francais": "Soupe"
+      },
+      {
+        "anglais": "Salad",
+        "francais": "Salade"
+      },
+      {
+        "anglais": "Raspberry",
+        "francais": "Framboise"
+      },
+      {
+        "anglais": "Avocado",
+        "francais": "Avocat"
+      },
+      {
+        "anglais": "Asparagus",
+        "francais": "Asperge"
+      },
+      {
+        "anglais": "Zucchini",
+        "francais": "Courgette"
+      },
+      {
+        "anglais": "Mushroom",
+        "francais": "Champignon"
+      },
+      {
+        "anglais": "Peanuts",
+        "francais": "Cacahuètes"
+      },
+      {
+        "anglais": "Almonds",
+        "francais": "Amandes"
+      },
+      {
+        "anglais": "Walnuts",
+        "francais": "Noix"
+      },
+      {
+        "anglais": "Cashews",
+        "francais": "Noix de cajou"
+      },
+      {
+        "anglais": "Pistachios",
+        "francais": "Pistaches"
+      },
+      {
+        "anglais": "Oats",
+        "francais": "Avoine"
+      },
+      {
+        "anglais": "Bacon",
+        "francais": "Bacon"
+      },
+      {
+        "anglais": "Sausage",
+        "francais": "Saucisse"
+      },
+      {
+        "anglais": "Butterfly Shrimp",
+        "francais": "Crevettes papillon"
+      },
+      {
+        "anglais": "Salmon",
+        "francais": "Saumon"
+      },
+      {
+        "anglais": "Tuna",
+        "francais": "Thon"
+      },
+      {
+        "anglais": "Sardines",
+        "francais": "Sardines"
+      },
+      {
+        "anglais": "Crab",
+        "francais": "Crabe"
+      },
+      {
+        "anglais": "Lobster",
+        "francais": "Homard"
+      },
+      {
+        "anglais": "Shrimp",
+        "francais": "Crevette"
+      },
+      {
+        "anglais": "Soy Sauce",
+        "francais": "Sauce soja"
+      },
+      {
+        "anglais": "Ketchup",
+        "francais": "Ketchup"
+      },
+      {
+        "anglais": "Mustard",
+        "francais": "Moutarde"
+      },
+      {
+        "anglais": "Mayonnaise",
+        "francais": "Mayonnaise"
+      }
+    ]
+  }
+  

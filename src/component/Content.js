@@ -1,7 +1,51 @@
-function App() {
-  return (
-    <p>test</p>
-  );
-}
+import Recettes from './Recettes.js';
+import React, { useState } from 'react';
 
-export default App;
+
+const Content = () => {
+  const [ingredient, setIngredient] = useState('');
+  const [recettes, setRecettes] = useState([]);
+
+  const handleInputChange = (event) => {
+    setIngredient(event.target.value);
+  };
+
+  const searchRecipes = () => {
+    // Construisez l'URL de l'API en utilisant l'ingrédient saisi
+    const apiUrl = 'https://api.spoonacular.com/recipes/complexSearch?apiKey=938b6afa480e4784bb95c8af68ac6e6f&includeIngredients=';
+
+    // Ici, vous pouvez faire un appel à l'API en utilisant fetch ou axios
+    // Exemple avec fetch :
+    fetch(apiUrl + ingredient)
+      .then(response => {
+        console.log(response)
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Traitez les données ici (par exemple, affichez les recettes)
+        console.log('Recettes:', data);
+        setRecettes(data.results);  // Supposons que les recettes sont dans data.results
+      })
+      .catch(error => console.error('Erreur lors de la récupération des recettes:', error));
+  };
+
+  return (
+    <main>
+      <label htmlFor="ingredient">Entrez un ingrédient :</label>
+      <input
+        type="text"
+        id="ingredient"
+        placeholder="Ex. poulet, pâtes, etc."
+        value={ingredient}
+        onChange={handleInputChange}
+      />
+      <button onClick={searchRecipes}>Rechercher</button>
+      <Recettes recettes={recettes} />
+    </main>
+  );
+};
+
+export default Content;
