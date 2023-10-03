@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+.recette {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* Utilisation de space-between pour aligner à gauche et à droite */
+  margin-bottom: 100px;
+  background-color: #282c34;
+  color: antiquewhite;
+  margin: 50px 50px;
+  border-radius: 15px;
+  font-size: 2em;
+  
+}
+
+.recette h2 {
+  margin: 0; /* Suppression de la marge pour aligner à gauche */
+  margin-left: 30px;
+}
+
+.recette img {
+  margin-left: 0; /* Ajout d'une marge à gauche pour l'image */
+  border-radius: 0 15px 15px 0;
+}
+
+.titreListe {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 2em;
+}
+
+.rechercher {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cacher {
+  display: none;
+}
+
+body{
+  font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+background-color: antiquewhite;
+}
+
+.rechercher input {
+  border: solid #282c34;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: #282c34;
+  color: antiquewhite;
+}
+
+.rechercher button {
+  border: solid #282c34;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: #282c34;
+  color: antiquewhite;
+}

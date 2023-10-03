@@ -27,14 +27,15 @@ const Content = () => {
       .then(data => {
         // Traitez les données ici (par exemple, affichez les recettes)
         console.log('Recettes:', data);
-        setRecettes(data.results);  // Supposons que les recettes sont dans data.results
+        setRecettes(data.results);
+        document.querySelector('.titreListe').classList.remove('cacher')  // Supposons que les recettes sont dans data.results
       })
       .catch(error => console.error('Erreur lors de la récupération des recettes:', error));
   };
 
   return (
     <main>
-      <label htmlFor="ingredient">Entrez un ingrédient :</label>
+      <section class="rechercher">
       <input
         type="text"
         id="ingredient"
@@ -43,6 +44,7 @@ const Content = () => {
         onChange={handleInputChange}
       />
       <button onClick={searchRecipes}>Rechercher</button>
+      </section>
       <Recettes recettes={recettes} />
     </main>
   );
