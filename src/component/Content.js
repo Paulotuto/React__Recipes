@@ -39,7 +39,7 @@ const Content = () => {
       <input
         type="text"
         id="ingredient"
-        placeholder="Ex. poulet, pâtes, etc."
+        placeholder="Ex. chicken, lemon, etc..."
         value={ingredient}
         onChange={handleInputChange}
       />
