@@ -43,7 +43,7 @@ const Content = () => {
         value={ingredient}
         onChange={handleInputChange}
       />
-      <button onClick={searchRecipes}>Rechercher</button>
+      <button onClick={searchRecipes}>Find recipe</button>
       </section>
       <Recettes recettes={recettes} />
     </main>

@@ -97,3 +97,7 @@ background-color: antiquewhite;
   background-color: #282c34;
   color: antiquewhite;
 }
+
+.rechercher button:hover {
+  cursor:grab;
+}

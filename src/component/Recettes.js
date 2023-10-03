@@ -3,7 +3,7 @@ import React from 'react';
 const Recettes = ({ recettes }) => {
   return (
     <div>
-      <h2 class="titreListe cacher">Liste des recettes</h2>
+      <h2 class="titreListe cacher">Recipes List</h2>
       <ul>
         {recettes.map((recette) => (
           <li class="recette">
