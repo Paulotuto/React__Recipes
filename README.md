@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Overview
+The main objective of this project is to create a web application where users can input the ingredients they have, and the app will generate recipes based on those ingredients.
+
 ## Available Scripts
 
 In the project directory, you can run:
